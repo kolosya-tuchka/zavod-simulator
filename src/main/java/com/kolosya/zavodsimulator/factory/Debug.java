@@ -1,9 +1,11 @@
 package com.kolosya.zavodsimulator.factory;
 
+import com.kolosya.zavodsimulator.Shutdownable;
+
 import java.io.IOException;
 import java.util.logging.*;
 
-public class Debug {
+public class Debug implements Shutdownable {
     private static Debug instance;
     private final Logger logger = Logger.getLogger("com.kolosya.zavodsimulator.factory");
 
@@ -34,6 +36,14 @@ public class Debug {
     public void warn(String msg) {
         synchronized (logger) {
             logger.warning(msg + "\n");
+        }
+    }
+
+    @Override
+    public void shutdown() {
+        log("Simulation finished. Exit...");
+        for (var handler : logger.getHandlers()) {
+            handler.close();
         }
     }
 }

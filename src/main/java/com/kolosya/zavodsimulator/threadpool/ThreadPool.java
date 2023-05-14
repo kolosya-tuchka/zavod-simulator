@@ -1,6 +1,7 @@
 package com.kolosya.zavodsimulator.threadpool;
 
 import com.kolosya.zavodsimulator.Shutdownable;
+import com.kolosya.zavodsimulator.factory.Debug;
 
 import java.util.Queue;
 import java.util.concurrent.*;
@@ -60,8 +61,10 @@ public class ThreadPool implements Shutdownable {
     }
 
     public void execute(Runnable task) {
-        synchronized (threads) {
+        synchronized (tasks) {
             tasks.add(task);
+        }
+        synchronized (threads) {
             threads.notify();
         }
     }
@@ -76,7 +79,6 @@ public class ThreadPool implements Shutdownable {
         }
         synchronized (tasks) {
             tasks.clear();
-            threads.notifyAll();
         }
     }
 
@@ -85,6 +87,7 @@ public class ThreadPool implements Shutdownable {
 
         public void shutdown() {
             isRunning = false;
+            interrupt();
         }
 
         @Override
@@ -97,7 +100,7 @@ public class ThreadPool implements Shutdownable {
                         try {
                             threads.wait();
                         } catch (InterruptedException ignored) {
-                            //TODO: implement me
+                            //Debug.getInstance().log(String.format("Thread %d is free", getThreadID(this)));
                         }
                     }
                 }
@@ -121,7 +124,7 @@ public class ThreadPool implements Shutdownable {
                 try {
                     Thread.sleep(sleepTime);
                 } catch (InterruptedException ignored) {
-                    //TODO: implement me
+                    //Debug.getInstance().log(String.format("Thread %d is free", getThreadID(this)));
                 }
             }
         }

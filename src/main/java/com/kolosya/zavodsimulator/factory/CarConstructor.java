@@ -12,7 +12,7 @@ public class CarConstructor {
         this.bodyStorage = bodyStorage;
     }
 
-    public Car construct() {
+    public Car construct() throws InterruptedException {
         var motor = motorStorage.get();
         var accessory = accessoryStorage.get();
         var body = bodyStorage.get();

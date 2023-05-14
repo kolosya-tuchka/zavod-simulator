@@ -27,15 +27,20 @@ public class CarStorageController extends Thread implements Shutdownable {
             }
 
             workersPool.execute(() -> {
-                var car = constructor.construct();
-
-                if (car == null) {
+                Car car = null;
+                try {
+                    car = constructor.construct();
+                } catch (InterruptedException ignored) {
                     return;
                 }
 
                 Debug.getInstance().log(String.format("Car %d was created by worker %d",
                         car.getID(), workersPool.getThreadID(Thread.currentThread())));
-                carStorage.put(car);
+                try {
+                    carStorage.put(car);
+                } catch (InterruptedException ignored) {
+                    return;
+                }
                 Debug.getInstance().log(String.format("Car %d was delivered to storage", car.getID()));
             });
         }
@@ -44,5 +49,7 @@ public class CarStorageController extends Thread implements Shutdownable {
     @Override
     public void shutdown() {
         isRunning = false;
+        workersPool.shutdown();
+        interrupt();
     }
 }

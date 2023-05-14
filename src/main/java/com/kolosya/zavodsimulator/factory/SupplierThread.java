@@ -25,6 +25,7 @@ public class SupplierThread<T extends CarPart> extends Thread implements Shutdow
 
     public void shutdown() {
         isRunning = false;
+        interrupt();
     }
 
     @Override
@@ -33,7 +34,11 @@ public class SupplierThread<T extends CarPart> extends Thread implements Shutdow
 
         while (isRunning) {
             var product = creator.create(id++);
-            storage.put(product);
+            try {
+                storage.put(product);
+            } catch (InterruptedException ignored) {
+                return;
+            }
             Debug.getInstance().log(String.format("%s %d was delivered to storage by supplier",
                     product.getClass().getSimpleName(), product.getID()));
 

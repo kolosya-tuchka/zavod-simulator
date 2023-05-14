@@ -6,9 +6,11 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class ZavodApplication extends Application {
     @Override
@@ -17,8 +19,19 @@ public class ZavodApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 800, 800);
         stage.setTitle("Factory");
         stage.setScene(scene);
+        stage.setOnCloseRequest(ZavodApplication::shutdown);
         stage.show();
     }
+
+    private static void shutdown(WindowEvent windowEvent) {
+        if (windowEvent.getEventType() == WindowEvent.WINDOW_CLOSE_REQUEST) {
+            for (var shut : shutdownables) {
+                shut.shutdown();
+            }
+        }
+    }
+
+    private static Shutdownable[] shutdownables;
 
     public static void main(String[] args) throws IOException {
         new Debug("factory.log", true);
@@ -71,6 +84,16 @@ public class ZavodApplication extends Application {
             public SupplierThread<Body> getBodySupplier() {
                 return bodySupplierThread;
             }
+        };
+
+        shutdownables = new Shutdownable[] {
+            workersPool,
+            dealersThread,
+            bodySupplierThread,
+            motorSupplierThread,
+            accessorySupplierThreadPool,
+            carStorageController,
+            Debug.getInstance()
         };
 
         launch();

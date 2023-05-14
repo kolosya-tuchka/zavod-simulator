@@ -19,6 +19,8 @@ public class DealersThread extends Thread implements Shutdownable {
 
     public void shutdown() {
         isRunning = false;
+        interrupt();
+        dealersPool.shutdown();
     }
 
     @Override
@@ -31,7 +33,12 @@ public class DealersThread extends Thread implements Shutdownable {
             }
 
             dealersPool.execute(() -> {
-                var car = carStorage.get();
+                Car car = null;
+                try {
+                    car = carStorage.get();
+                } catch (InterruptedException ignored) {
+                    return;
+                }
                 if (!logSale) {
                     return;
                 }

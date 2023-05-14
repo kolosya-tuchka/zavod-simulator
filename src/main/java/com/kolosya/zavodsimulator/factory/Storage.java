@@ -31,14 +31,14 @@ public class Storage<T> {
         return capacity;
     }
 
-    public void put(T element) {
+    public void put(T element) throws InterruptedException {
         if (elements.size() == capacity) {
             try {
                 synchronized (waitIn) {
                    waitIn.wait();
                 }
-            } catch (InterruptedException ignored) {
-                //TODO: implement me
+            } catch (InterruptedException e) {
+                throw e;
             }
         }
 
@@ -53,14 +53,14 @@ public class Storage<T> {
         }
     }
 
-    public T get() {
+    public T get() throws InterruptedException {
         if (elements.isEmpty()) {
             try {
                 synchronized (waitOut) {
                     waitOut.wait();
                 }
-            } catch (InterruptedException ignored) {
-                //TODO: implement me
+            } catch (InterruptedException e) {
+                throw e;
             }
         }
 
