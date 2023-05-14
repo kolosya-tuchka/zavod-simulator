@@ -43,10 +43,12 @@ public class SupplierThreadPool<T extends CarPart> extends Thread implements Shu
 
             this.threadPool.execute(() -> {
                 var product = this.creator.create(id++);
-                try {
-                    storage.put(product);
-                } catch (InterruptedException ignored) {
-                    return;
+                synchronized (this) {
+                    try {
+                        storage.put(product);
+                    } catch (InterruptedException ignored) {
+                        return;
+                    }
                 }
                 Debug.getInstance().log(String.format("%s %d was delivered to storage by supplier %d",
                         product.getClass().getSimpleName(), product.getID(), threadPool.getThreadID(Thread.currentThread())));

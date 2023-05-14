@@ -32,13 +32,9 @@ public class Storage<T> {
     }
 
     public void put(T element) throws InterruptedException {
-        if (elements.size() == capacity) {
-            try {
-                synchronized (waitIn) {
-                   waitIn.wait();
-                }
-            } catch (InterruptedException e) {
-                throw e;
+        synchronized (waitIn) {
+            if (elements.size() == capacity) {
+                waitIn.wait();
             }
         }
 
@@ -54,18 +50,16 @@ public class Storage<T> {
     }
 
     public T get() throws InterruptedException {
-        if (elements.isEmpty()) {
-            try {
-                synchronized (waitOut) {
-                    waitOut.wait();
-                }
-            } catch (InterruptedException e) {
-                throw e;
+        T element = null;
+
+        synchronized (waitOut) {
+            if (elements.isEmpty()) {
+                waitOut.wait();
+                element = elements.remove();
             }
         }
 
-        T element;
-        synchronized (elements) {
+        if (element == null) {
             element = elements.remove();
         }
         synchronized (this) {

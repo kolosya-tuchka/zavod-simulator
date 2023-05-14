@@ -16,7 +16,7 @@ public class ZavodApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ZavodApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 800, 800);
+        Scene scene = new Scene(fxmlLoader.load(), 400, 400);
         stage.setTitle("Factory");
         stage.setScene(scene);
         stage.setOnCloseRequest(ZavodApplication::shutdown);

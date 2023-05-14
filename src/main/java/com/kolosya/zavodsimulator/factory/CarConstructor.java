@@ -13,9 +13,19 @@ public class CarConstructor {
     }
 
     public Car construct() throws InterruptedException {
-        var motor = motorStorage.get();
-        var accessory = accessoryStorage.get();
-        var body = bodyStorage.get();
+        Motor motor;
+        Accessory accessory;
+        Body body;
+
+        synchronized (this) {
+            motor = motorStorage.get();
+        }
+        synchronized (this) {
+            accessory = accessoryStorage.get();
+        }
+        synchronized (this) {
+            body = bodyStorage.get();
+        }
         long _id;
         synchronized (this) {
             _id = id++;

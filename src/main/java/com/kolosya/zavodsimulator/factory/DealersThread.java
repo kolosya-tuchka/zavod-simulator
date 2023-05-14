@@ -34,10 +34,12 @@ public class DealersThread extends Thread implements Shutdownable {
 
             dealersPool.execute(() -> {
                 Car car = null;
-                try {
-                    car = carStorage.get();
-                } catch (InterruptedException ignored) {
-                    return;
+                synchronized (this) {
+                    try {
+                        car = carStorage.get();
+                    } catch (InterruptedException ignored) {
+                        return;
+                    }
                 }
                 if (!logSale) {
                     return;
