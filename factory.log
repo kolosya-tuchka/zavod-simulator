@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-14T06:46:40.031888700Z</date>
+  <millis>1684046800031</millis>
+  <nanos>888700</nanos>
+  <sequence>0</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>60</thread>
+  <message>Motor 0 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:40.052832600Z</date>
+  <millis>1684046800052</millis>
+  <nanos>832600</nanos>
+  <sequence>1</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>29</thread>
+  <message>Car 0 was created by worker 0
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:40.053830400Z</date>
+  <millis>1684046800053</millis>
+  <nanos>830400</nanos>
+  <sequence>2</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>Accessory 1 was delivered to storage by supplier 1
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:40.053830400Z</date>
+  <millis>1684046800053</millis>
+  <nanos>830400</nanos>
+  <sequence>3</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>62</thread>
+  <message>Accessory 0 was delivered to storage by supplier 0
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:40.054827600Z</date>
+  <millis>1684046800054</millis>
+  <nanos>827600</nanos>
+  <sequence>4</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>59</thread>
+  <message>Body 0 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:40.054827600Z</date>
+  <millis>1684046800054</millis>
+  <nanos>827600</nanos>
+  <sequence>5</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>65</thread>
+  <message>Accessory 3 was delivered to storage by supplier 3
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:40.055824700Z</date>
+  <millis>1684046800055</millis>
+  <nanos>824700</nanos>
+  <sequence>6</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>66</thread>
+  <message>Accessory 2 was delivered to storage by supplier 4
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:40.055824700Z</date>
+  <millis>1684046800055</millis>
+  <nanos>824700</nanos>
+  <sequence>7</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>64</thread>
+  <message>Accessory 4 was delivered to storage by supplier 2
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:40.056822400Z</date>
+  <millis>1684046800056</millis>
+  <nanos>822400</nanos>
+  <sequence>8</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Car 0 &lt;Motor 0; Accessory 0; Body 0&gt; was sold by dealer 0.
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:40.057819500Z</date>
+  <millis>1684046800057</millis>
+  <nanos>819500</nanos>
+  <sequence>9</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>29</thread>
+  <message>Car 0 was delivered to storage
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.055445500Z</date>
+  <millis>1684046805055</millis>
+  <nanos>445500</nanos>
+  <sequence>10</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>60</thread>
+  <message>Motor 1 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.057292700Z</date>
+  <millis>1684046805057</millis>
+  <nanos>292700</nanos>
+  <sequence>11</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>Car 1 was created by worker 1
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.066062600Z</date>
+  <millis>1684046805066</millis>
+  <nanos>62600</nanos>
+  <sequence>12</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>64</thread>
+  <message>Accessory 8 was delivered to storage by supplier 2
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.067058200Z</date>
+  <millis>1684046805067</millis>
+  <nanos>58200</nanos>
+  <sequence>13</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>59</thread>
+  <message>Body 1 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.067058200Z</date>
+  <millis>1684046805067</millis>
+  <nanos>58200</nanos>
+  <sequence>14</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>65</thread>
+  <message>Accessory 7 was delivered to storage by supplier 3
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.067058200Z</date>
+  <millis>1684046805067</millis>
+  <nanos>58200</nanos>
+  <sequence>15</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>62</thread>
+  <message>Accessory 6 was delivered to storage by supplier 0
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.068055400Z</date>
+  <millis>1684046805068</millis>
+  <nanos>55400</nanos>
+  <sequence>16</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>Accessory 5 was delivered to storage by supplier 1
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.068055400Z</date>
+  <millis>1684046805068</millis>
+  <nanos>55400</nanos>
+  <sequence>17</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>Car 1 &lt;Motor 1; Accessory 1; Body 1&gt; was sold by dealer 1.
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.068055400Z</date>
+  <millis>1684046805068</millis>
+  <nanos>55400</nanos>
+  <sequence>18</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>30</thread>
+  <message>Car 1 was delivered to storage
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:45.069053Z</date>
+  <millis>1684046805069</millis>
+  <nanos>53000</nanos>
+  <sequence>19</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>66</thread>
+  <message>Accessory 9 was delivered to storage by supplier 4
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.058759200Z</date>
+  <millis>1684046810058</millis>
+  <nanos>759200</nanos>
+  <sequence>20</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>60</thread>
+  <message>Motor 2 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.067587800Z</date>
+  <millis>1684046810067</millis>
+  <nanos>587800</nanos>
+  <sequence>21</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>59</thread>
+  <message>Body 2 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.067587800Z</date>
+  <millis>1684046810067</millis>
+  <nanos>587800</nanos>
+  <sequence>22</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>Car 2 was created by worker 2
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.067587800Z</date>
+  <millis>1684046810067</millis>
+  <nanos>587800</nanos>
+  <sequence>23</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>Car 2 was delivered to storage
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.068582800Z</date>
+  <millis>1684046810068</millis>
+  <nanos>582800</nanos>
+  <sequence>24</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>62</thread>
+  <message>Accessory 11 was delivered to storage by supplier 0
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.068582800Z</date>
+  <millis>1684046810068</millis>
+  <nanos>582800</nanos>
+  <sequence>25</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>64</thread>
+  <message>Accessory 10 was delivered to storage by supplier 2
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.068582800Z</date>
+  <millis>1684046810068</millis>
+  <nanos>582800</nanos>
+  <sequence>26</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>Accessory 12 was delivered to storage by supplier 1
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.069579800Z</date>
+  <millis>1684046810069</millis>
+  <nanos>579800</nanos>
+  <sequence>27</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>42</thread>
+  <message>Car 2 &lt;Motor 2; Accessory 3; Body 2&gt; was sold by dealer 3.
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.069579800Z</date>
+  <millis>1684046810069</millis>
+  <nanos>579800</nanos>
+  <sequence>28</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>65</thread>
+  <message>Accessory 14 was delivered to storage by supplier 3
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:50.069579800Z</date>
+  <millis>1684046810069</millis>
+  <nanos>579800</nanos>
+  <sequence>29</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>66</thread>
+  <message>Accessory 13 was delivered to storage by supplier 4
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.061491600Z</date>
+  <millis>1684046815061</millis>
+  <nanos>491600</nanos>
+  <sequence>30</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>60</thread>
+  <message>Motor 3 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.068472600Z</date>
+  <millis>1684046815068</millis>
+  <nanos>472600</nanos>
+  <sequence>31</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>59</thread>
+  <message>Body 3 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.068472600Z</date>
+  <millis>1684046815068</millis>
+  <nanos>472600</nanos>
+  <sequence>32</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>34</thread>
+  <message>Car 3 was created by worker 5
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.068472600Z</date>
+  <millis>1684046815068</millis>
+  <nanos>472600</nanos>
+  <sequence>33</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>34</thread>
+  <message>Car 3 was delivered to storage
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.068472600Z</date>
+  <millis>1684046815068</millis>
+  <nanos>472600</nanos>
+  <sequence>34</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>45</thread>
+  <message>Car 3 &lt;Motor 3; Accessory 2; Body 3&gt; was sold by dealer 6.
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.069470200Z</date>
+  <millis>1684046815069</millis>
+  <nanos>470200</nanos>
+  <sequence>35</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>64</thread>
+  <message>Accessory 16 was delivered to storage by supplier 2
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.069470200Z</date>
+  <millis>1684046815069</millis>
+  <nanos>470200</nanos>
+  <sequence>36</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>62</thread>
+  <message>Accessory 15 was delivered to storage by supplier 0
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.070467600Z</date>
+  <millis>1684046815070</millis>
+  <nanos>467600</nanos>
+  <sequence>37</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>65</thread>
+  <message>Accessory 17 was delivered to storage by supplier 3
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.070467600Z</date>
+  <millis>1684046815070</millis>
+  <nanos>467600</nanos>
+  <sequence>38</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>Accessory 18 was delivered to storage by supplier 1
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:46:55.071469100Z</date>
+  <millis>1684046815071</millis>
+  <nanos>469100</nanos>
+  <sequence>39</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>66</thread>
+  <message>Accessory 19 was delivered to storage by supplier 4
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:00.062404Z</date>
+  <millis>1684046820062</millis>
+  <nanos>404000</nanos>
+  <sequence>40</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>60</thread>
+  <message>Motor 4 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:00.069977100Z</date>
+  <millis>1684046820069</millis>
+  <nanos>977100</nanos>
+  <sequence>41</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>59</thread>
+  <message>Body 4 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:00.069977100Z</date>
+  <millis>1684046820069</millis>
+  <nanos>977100</nanos>
+  <sequence>42</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>Car 4 was created by worker 4
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:00.070708400Z</date>
+  <millis>1684046820070</millis>
+  <nanos>708400</nanos>
+  <sequence>43</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>Car 4 was delivered to storage
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:00.070708400Z</date>
+  <millis>1684046820070</millis>
+  <nanos>708400</nanos>
+  <sequence>44</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>46</thread>
+  <message>Car 4 &lt;Motor 4; Accessory 4; Body 4&gt; was sold by dealer 7.
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:05.064920800Z</date>
+  <millis>1684046825064</millis>
+  <nanos>920800</nanos>
+  <sequence>45</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>60</thread>
+  <message>Motor 5 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:05.071093100Z</date>
+  <millis>1684046825071</millis>
+  <nanos>93100</nanos>
+  <sequence>46</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>59</thread>
+  <message>Body 5 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:05.072912200Z</date>
+  <millis>1684046825072</millis>
+  <nanos>912200</nanos>
+  <sequence>47</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>38</thread>
+  <message>Car 5 was created by worker 9
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:05.073942900Z</date>
+  <millis>1684046825073</millis>
+  <nanos>942900</nanos>
+  <sequence>48</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>38</thread>
+  <message>Car 5 was delivered to storage
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:05.074939700Z</date>
+  <millis>1684046825074</millis>
+  <nanos>939700</nanos>
+  <sequence>49</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>44</thread>
+  <message>Car 5 &lt;Motor 5; Accessory 5; Body 5&gt; was sold by dealer 5.
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.067177900Z</date>
+  <millis>1684046830067</millis>
+  <nanos>177900</nanos>
+  <sequence>50</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>60</thread>
+  <message>Motor 6 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.070114600Z</date>
+  <millis>1684046830070</millis>
+  <nanos>114600</nanos>
+  <sequence>51</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>64</thread>
+  <message>Accessory 20 was delivered to storage by supplier 2
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.071112400Z</date>
+  <millis>1684046830071</millis>
+  <nanos>112400</nanos>
+  <sequence>52</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>Accessory 21 was delivered to storage by supplier 1
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.071112400Z</date>
+  <millis>1684046830071</millis>
+  <nanos>112400</nanos>
+  <sequence>53</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>65</thread>
+  <message>Accessory 22 was delivered to storage by supplier 3
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.072110300Z</date>
+  <millis>1684046830072</millis>
+  <nanos>110300</nanos>
+  <sequence>54</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>62</thread>
+  <message>Accessory 23 was delivered to storage by supplier 0
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.072110300Z</date>
+  <millis>1684046830072</millis>
+  <nanos>110300</nanos>
+  <sequence>55</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>66</thread>
+  <message>Accessory 24 was delivered to storage by supplier 4
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.073713Z</date>
+  <millis>1684046830073</millis>
+  <nanos>713000</nanos>
+  <sequence>56</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>59</thread>
+  <message>Body 6 was delivered to storage by supplier
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.073713Z</date>
+  <millis>1684046830073</millis>
+  <nanos>713000</nanos>
+  <sequence>57</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>37</thread>
+  <message>Car 6 was created by worker 8
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.073713Z</date>
+  <millis>1684046830073</millis>
+  <nanos>713000</nanos>
+  <sequence>58</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>37</thread>
+  <message>Car 6 was delivered to storage
+</message>
+</record>
+<record>
+  <date>2023-05-14T06:47:10.073713Z</date>
+  <millis>1684046830073</millis>
+  <nanos>713000</nanos>
+  <sequence>59</sequence>
+  <logger>com.kolosya.zavodsimulator.factory</logger>
+  <level>INFO</level>
+  <class>com.kolosya.zavodsimulator.factory.Debug</class>
+  <method>log</method>
+  <thread>43</thread>
+  <message>Car 6 &lt;Motor 6; Accessory 6; Body 6&gt; was sold by dealer 4.
+</message>
+</record>
+</log>

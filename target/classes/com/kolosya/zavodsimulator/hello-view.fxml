@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kolosya.zavodsimulator.ZavodController">
+   <children>
+      <VBox prefHeight="534.0" prefWidth="684.0">
+         <VBox prefHeight="52.0" prefWidth="196.0">
+            <children>
+            
+                <Label fx:id="motorLabel" text="Motor supplier sleep time" />
+               <Slider fx:id="motorSlider" accessibleText="Aboba" blockIncrement="1.0" max="15.0" onDragDone="#onMotorSleepTimeChanged" onMouseReleased="#onMotorSleepTimeChanged" value="5.0">
+                  <VBox.margin>
+                     <Insets />
+                  </VBox.margin>
+                  <padding>
+                     <Insets left="1.0" />
+                  </padding>
+               </Slider>
+            </children>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+         </VBox>
+         <VBox layoutX="10.0" layoutY="251.0" prefHeight="52.0" prefWidth="196.0">
+            <children>
+               <Label fx:id="bodyLabel" text="Body supplier sleep time" />
+               <Slider fx:id="bodySlider" accessibleText="Aboba" blockIncrement="1.0" max="15.0" onDragDone="#onBodySleepTimeChanged" onMouseReleased="#onBodySleepTimeChanged" value="5.0">
+                  <VBox.margin>
+                     <Insets />
+                  </VBox.margin>
+                  <padding>
+                     <Insets left="1.0" />
+                  </padding>
+               </Slider>
+            </children>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+         </VBox>
+         <VBox layoutX="10.0" layoutY="277.0" prefHeight="52.0" prefWidth="196.0">
+            <children>
+               <Label fx:id="accessoryLabel" text="Accessory suppliers sleep time" />
+               <Slider fx:id="accessorySlider" accessibleText="Aboba" blockIncrement="1.0" max="15.0" onDragDone="#onAccessorySleepTimeChanged" onMouseReleased="#onAccessorySleepTimeChanged" value="5.0">
+                  <VBox.margin>
+                     <Insets />
+                  </VBox.margin>
+                  <padding>
+                     <Insets left="1.0" />
+                  </padding>
+               </Slider>
+            </children>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+         </VBox>
+         <VBox layoutX="10.0" layoutY="303.0" prefHeight="52.0" prefWidth="196.0">
+            <children>
+               <Label fx:id="workersLabel" text="Workers sleep time" />
+               <Slider fx:id="workersSlider" accessibleText="Aboba" blockIncrement="1.0" max="15.0" onDragDone="#onWorkersSleepTimeChanged" onMouseReleased="#onWorkersSleepTimeChanged" value="5.0">
+                  <VBox.margin>
+                     <Insets />
+                  </VBox.margin>
+                  <padding>
+                     <Insets left="1.0" />
+                  </padding>
+               </Slider>
+            </children>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+         </VBox>
+         <VBox layoutX="10.0" layoutY="329.0" prefHeight="52.0" prefWidth="196.0">
+            <children>
+               <Label fx:id="dealersLabel" text="Dealers sleep time" />
+               <Slider fx:id="dealersSlider" accessibleText="Aboba" blockIncrement="1.0" max="15.0" onDragDone="#onDealersSleepTimeChanged" onMouseReleased="#onDealersSleepTimeChanged" value="5.0">
+                  <VBox.margin>
+                     <Insets />
+                  </VBox.margin>
+                  <padding>
+                     <Insets left="1.0" />
+                  </padding>
+               </Slider>
+            </children>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+         </VBox>
+      </VBox>
+      <VBox prefHeight="534.0" prefWidth="902.0">
+         <children>
+            <Label text="Statistics">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>
